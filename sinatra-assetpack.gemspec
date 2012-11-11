@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = %Q{Package your assets for Sinatra.}
   s.authors = ["Rico Sta. Cruz"]
   s.email = ["rico@sinefunc.com"]
-  s.homepage = "http://github.com/rstacruz/sinatra-assetpack"
+  s.homepage = "http://github.com/meskallito/sinatra-assetpack"
   s.files = `git ls-files`.strip.split("\n")
   s.executables = Dir["bin/*"].map { |f| File.basename(f) }
 
